@@ -17,7 +17,6 @@
 		noButtonRef.style.position = "absolute";
 		noButtonRef.style.left = `${newX}px`;
 		noButtonRef.style.top = `${newY}px`;
-		noButtonRef.style.width = "150px";
 	}
 
 	function handleYes() {

@@ -1,38 +1,104 @@
-# sv
+# The Ultimate Valentine's Day Proposal Website ❤️
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Ever dreamed of a website that  asks your special lady out on a date? Welcome—this site's built for that one special chick on February 14th.
 
-## Creating a project
+---
+# Choose Your Language
 
-If you're seeing this, you've probably already done this step. Congrats!
+Click to select your language:
 
-```bash
-# create a new project in the current directory
-npx sv create
 
-# create a new project in my-app
-npx sv create my-app
+[<img src="assets/eaglesss.png" alt="English" width="50" />](README.md)
+**[English](README.md)**
+
+[<img src="assets/nashslonyara.png" alt="Русский" width="50" />](RUREADME.md)
+**[Русский](RUREADME.md)**
+
+## ! Disclaimer !
+
+- **Not a Love Potion:**
+  This site might give you a bit of digital charm, but the real magic? That’s all you, bro!
+
+---
+
+## Showcase
+
+[<img src="assets/enshowcase.gif" alt="showcase"  />](https://mentoster.github.io/Ask-girl-to-date/)
+
+## Customization
+
+Want to change the text? Everything—the text, images, and even the jokes—can be customized in the file [`src/config.ts`](src/config.ts). Check out what's there:
+
+```ts
+import { assets } from "$app/paths";
+
+export const config = {
+	mainPage: {
+		heading: "Hello, Anna",
+		invitation: "Will you go on a date with me this week? 👉👈🥺",
+		yesText: "Yes",
+		noText: "No",
+		topImage: `${assets}/Assets/Top_picture/Cute_pic2.jpg`,
+		leftHeart: `${assets}/Assets/Hearts/heart_3d.gif`,
+		rightHeart: `${assets}/Assets/Hearts/heart_3d.gif`,
+	},
+	noPage: {
+		message: '"No" – is not an option at all😁',
+		image: `${assets}/Assets/No_picture/kermit-shooting.gif`,
+	},
+	yesPage: {
+		message: "See you this week 😄",
+		image: `${assets}/Assets/Yes_picture/Yes.gif`,
+	},
+};
 ```
 
-## Developing
+## Technological Magic
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+This site is powered by the force of technology:
+- **[SvelteKit](https://kit.svelte.dev):** Builds interfaces faster than a GPT query for React.
+- **[Vite](https://vitejs.dev):** Because who doesn’t love a server that starts up faster than a new lame joke from Reddit climbs the r/memes.
 
-```bash
-npm run dev
+---
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Auto Deployment on GitHub Pages
 
-## Building
+Fork this repository, and your copy will automatically deploy to GitHub Pages thanks to GitHub Actions. Every push to the master branch (or a manual trigger) will update your site.
 
-To create a production version of your app:
+---
 
-```bash
-npm run build
-```
+## How to Launch (For the Brave and Curious)
 
-You can preview the production build with `npm run preview`.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/mentoster/magicmoment.git
+   cd magicmoment
+   ```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run Development Mode**
+   ```bash
+   npm run dev
+   ```
+   Any changes are picked up instantly (hot-reload, babe)!
+
+4. **Build the Project**
+   ```bash
+   npm run build
+   ```
+   Builds the production version of the site (files will be in the `build` folder).
+
+5. **Preview the Build (Optional)**
+   ```bash
+   npm run preview
+   ```
+
+---
+
+## Contributing (If You've Got Some Memes)
+
+If you have an idea to make the site even cooler, don't hesitate: fork it, give it a star, or drop a pull request.
