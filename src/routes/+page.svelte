@@ -3,17 +3,19 @@
 	import { config } from "../config";
 	import { goto } from "$app/navigation";
 	import { onMount } from "svelte";
+    import { base } from "$app/paths";
 
 	let containerRef: HTMLDivElement;
 	let noButtonRef: HTMLButtonElement;
 
 	// Button click handlers (using SvelteKit navigation)
-	function handleYes() {
-		goto("/yes");
-	}
-	function handleNo() {
-		goto("/no");
-	}
+
+    function handleYes() {
+        goto(`${base}/yes`);
+    }
+    function handleNo() {
+        goto(`${base}/no`);
+    }
 </script>
 
 <div class="container" bind:this={containerRef}>
