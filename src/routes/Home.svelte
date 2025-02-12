@@ -1,7 +1,7 @@
 <script>
 	import { onMount } from "svelte";
 	import config from "../config.json";
-	import { goto } from "$app/navigation"; // если используете svelte-navigator или другое решение
+	import { goto } from "$app/navigation";
 
 	let noButton;
 	let container;
@@ -10,12 +10,12 @@
 		goto("/yes");
 	}
 
-	// Функция для "убегания" кнопки
+	// Function to "move away" the button
 	function moveNoButton() {
 		if (!container || !noButton) return;
 		const rect = container.getBoundingClientRect();
 
-		// Высчитываем новую позицию
+		// Calculate new position
 		const newX = Math.random() * (rect.width - noButton.offsetWidth);
 		const newY = Math.random() * (rect.height - noButton.offsetHeight);
 
@@ -25,12 +25,12 @@
 	}
 
 	function handleNo() {
-		// При клике по «Нет» тоже убегаем
+		// Clicking the "No" button also triggers the move
 		moveNoButton();
 	}
 
 	onMount(() => {
-		// Навешиваем событие при наведении
+		// Add event listener for mouseover on the "No" button
 		noButton.addEventListener("mouseover", moveNoButton);
 	});
 </script>

@@ -1,5 +1,7 @@
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import adapter from '@sveltejs/adapter-static';
+const forGithubPages = true;
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	preprocess: vitePreprocess(),
@@ -13,8 +15,12 @@ const config = {
 				precompress: true,
 				strict: true
 			}
-		)
+		),
+		paths: {
+			base: forGithubPages ? '' : '/Ask-girl-to-date'
+		},
 	}
+
 };
 
 export default config;
