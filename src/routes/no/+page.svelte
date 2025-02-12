@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { goto } from "$app/navigation";
 	import { config } from "../../config";
+    import { base } from "$app/paths";
 
 	let containerRef: HTMLDivElement;
 	let noButtonRef: HTMLButtonElement;
@@ -20,7 +21,7 @@
 	}
 
 	function handleYes() {
-		goto("/yes");
+	 	goto(`${base}/yes`);
 	}
 </script>
 
