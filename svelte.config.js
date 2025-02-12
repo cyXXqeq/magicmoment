@@ -1,6 +1,6 @@
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import adapter from '@sveltejs/adapter-static';
-const forGithubPages = true;
+const forGithubPages = false;
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
