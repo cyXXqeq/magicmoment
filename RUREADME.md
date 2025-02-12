@@ -2,7 +2,7 @@
 
 Мечтал, чтобы сайт сам залетел и спросил твою избранницу о свидании? Добро пожаловать, сайт созданный для той особенной девчули на 14 февраля.
 
-[<img src="assets/rushowcase.gif" alt="showcase"  />](https://mentoster.github.io/Ask-girl-to-date/)
+[<img src="assets/rushowcase.gif" alt="showcase"  />](https://mentoster.github.io/magicmoment/)
 ---
 # Выберите язык
 
