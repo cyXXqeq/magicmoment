@@ -17,7 +17,7 @@ const config = {
 			}
 		),
 		paths: {
-			base: forGithubPages ? '' : '/Ask-girl-to-date'
+			base: forGithubPages ? '/Ask-girl-to-date' : ''
 		},
 	}
 
