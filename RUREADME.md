@@ -2,6 +2,7 @@
 
 Мечтал, чтобы сайт сам залетел и спросил твою избранницу о свидании? Добро пожаловать, сайт созданный для той особенной девчули на 14 февраля.
 
+[<img src="assets/rushowcase.gif" alt="showcase"  />](https://mentoster.github.io/Ask-girl-to-date/)
 ---
 # Выберите язык
 
@@ -20,9 +21,7 @@
 
 ---
 
-## Как это работает
 
-[<img src="assets/rushowcase.gif" alt="showcase"  />](https://mentoster.github.io/Ask-girl-to-date/)
 ## Кастомизация
 
 Хочешь поменять текст? Всё: текст, картинки и даже приколы можно настроить в файле [`src/config.ts`](src/config.ts). Зацени, что там:

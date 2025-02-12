@@ -2,6 +2,7 @@
 
 Ever dreamed of a website that  asks your special lady out on a date? Welcome—this site's built for that one special chick on February 14th.
 
+[<img src="assets/enshowcase.gif" alt="showcase"  />](https://mentoster.github.io/Ask-girl-to-date/)
 ---
 # Choose Your Language
 
@@ -21,9 +22,8 @@ Click to select your language:
 
 ---
 
-## Showcase
 
-[<img src="assets/enshowcase.gif" alt="showcase"  />](https://mentoster.github.io/Ask-girl-to-date/)
+
 
 ## Customization
 
