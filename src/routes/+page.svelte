@@ -31,8 +31,7 @@
 			class="side-image"
 			loading="lazy"
 		/>
-		<!-- Combine the heading and girlName -->
-		<h1>{config.mainPage.heading}{config.girlName}!</h1>
+		<h1>{config.mainPage.heading}</h1>
 		<img
 			src={config.mainPage.rightHeart}
 			alt="Heart Right"
